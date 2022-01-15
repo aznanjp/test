@@ -14,6 +14,8 @@ try{
     $connection = new PDO($database, $username, $password);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+    $x = 1 + 1;
+
 
 
 } catch (PDOException $e){
